@@ -1,0 +1,64 @@
+body{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Top{
+    width: 40%;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+}
+#BubbleDiv{
+    padding: 1px 10px 5px 10px;
+    margin-top: 100px;
+    height: 100%;
+    margin-bottom: 70px;
+}
+#contentDiv{
+    margin-top: 1em;
+}
+#subDiv{
+    width: auto;
+    height: auto;
+    text-align: right;
+    border: 1px solid;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+}
+#BubbleDiv div span{
+    max-width: 100%;
+    height: auto;
+}
+#InputDiv{
+    width: 40%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+form{
+    width: 40%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+input{
+    width: 85%;
+    height: 50px;
+    margin: 5px;
+}
+button{
+    width: 10%;
+    height: 57px;
+}
